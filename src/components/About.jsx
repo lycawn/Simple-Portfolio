@@ -1,0 +1,41 @@
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Bounce from 'react-reveal/Bounce';
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+function About(){
+
+return(
+    <div>
+  
+        <Header />
+        <Bounce left>
+        <div className="introduction">
+       
+        <h1>ABOUT ME</h1>
+        <img src="/img/profile.png" width="150px" height="150px" />
+        <h3>Hello i'm Angelos a <span className="frontend">Front-end Web Developer</span></h3>
+        <br></br>
+      
+        <p>Welcome to my <span className="portfolioSpan">Personal Portfolio</span>
+      I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design</p>
+        <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
+        <h3 className="hobbies">Hobbies</h3>
+        <p>some of my hobbies are  walking around town , hiking , playing guitar , reading  & enjoying small moments</p>
+        
+        <br></br>
+        <hr></hr>
+        </div>
+        <br></br>
+        </Bounce>
+        
+        <Link to="/Preloader3" href="#"><h2 className="nextPage" >Next Page</h2></Link>
+    <Footer />
+
+    </div>
+)
+
+}
+
+export default About;
