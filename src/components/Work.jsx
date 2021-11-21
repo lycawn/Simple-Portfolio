@@ -18,8 +18,8 @@ return (<div>
             <div className="skills">
                 <li>CSS 80%</li>
                 <li>HTML 90%</li>
-                <li>JavaScript 75%</li>
-                <li>React.js 70%</li>
+                <li>JavaScript 55%</li>
+                <li>React.js 60%</li>
                 <hr></hr>
                 <h3>Previous Works & Early days</h3>
                 <p>I worked multiple jobs as a teen & an adult , for the past few years i worked as a technical agent at multiple telecommunication companies. In my earlier days as a teenager i used to make my own private server of one of my favourite <span className="mmo">MMORPG'S</span>. Was mainly build on <span className="languages">Python</span> so every little change i wanted to make i had to program it , my experience to coding back in the day was non existance i was just following tutorials and guide everywhere i could find them just to make a simple change to my lovely game. The hardest part back then  was to make it going on <span className="sql">DynDNS</span>  Server world wide without needing to connect via Hamachi an old "local connection" software were you could join with an IP to the server.
