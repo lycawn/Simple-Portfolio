@@ -23,7 +23,7 @@ return(
        
         <h1>ABOUT ME</h1>
         <img src="/img/profile.png" width="150px" height="150px"  />
-        <h3>Hello i'm Angelos a <span className="frontend">Front-end Web Developer</span></h3>
+        <h3>Hello i'm Angelos a <span className="frontend">front-end Developer</span></h3>
         <br></br>
         
       

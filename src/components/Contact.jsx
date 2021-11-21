@@ -22,7 +22,7 @@ return (<div>
             {/* <img className="aboutImg" src="/img/2.png" /> */}
             </form>
             
-        <a className="instagram" href="https://www.instagram.com/aggelos.antoniades/">Instagram</a>
+        <a className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank">Instagram</a>
         
         <a className="github">GitHub</a>
         </div>
