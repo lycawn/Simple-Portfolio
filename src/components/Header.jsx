@@ -10,12 +10,12 @@ function Header(){
            
   <summary></summary>
 
-  <nav class="menu">
+  <nav id="menu" class="menu">
     <Link to="/" href="#">Home</Link>
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
-    <a href="#link">Social</a>
+    <Link to="/" href="#">Social</Link>
   </nav>
 </details>
 </div>

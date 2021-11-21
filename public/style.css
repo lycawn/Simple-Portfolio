@@ -267,11 +267,12 @@ li:hover {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  margin: 1%;
   color: #435560;
 }
 
 input {
-  border: 1px solid #de8971;
+  border: 2px solid #de8971;
   background-color: #f6f6f6;
   width: 250px;
   border-radius: 3px;
@@ -285,7 +286,7 @@ input {
   font-weight: 300;
 }
 textarea {
-  border: 1px solid #de8971;
+  border: 2px solid #de8971;
   background-color: #f6f6f6;
   width: 250px;
   border-radius: 3px;
@@ -315,31 +316,18 @@ button:hover {
   background-color: #ff7171;
 }
 
-/* play button */
-
-.play {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #334756;
-  display: grid;
-  place-content: center;
-  animation: grow 1s infinite;
-  color: #eee;
-  font-size: 10px;
+.socialMedia {
+  margin: 5%;
+  text-align: center;
+}
+.socialMedia:hover {
+  color: #ffe2e2;
 }
 
-@media (max-width: 764px) {
-  .play {
-    z-index: 99;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #334756;
-    display: grid;
-    place-content: center;
-    animation: grow 1s infinite;
-    color: #eee;
-    font-size: 10px;
-  }
+/* Social Page */
+.containerSocial {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #435560;
 }
