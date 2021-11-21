@@ -171,6 +171,7 @@ details[open]::before {
 .introimg {
   margin-bottom: 5%;
   margin-left: auto;
+  width: 100%;
   margin-right: auto;
   display: block;
 }
@@ -180,7 +181,7 @@ details[open]::before {
     margin-right: auto;
     display: block;
     width: 450px;
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -236,13 +237,24 @@ button {
   text-decoration: underline;
 }
 
+.aboutImg {
+  position: relative;
+  display: inline-block;
+}
+
+@media (max-width: 764px) {
+  .aboutImg {
+    width: 450px;
+    height: 350px;
+  }
+}
 /* Work */
 
 .containerWork {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 80%;
+  width: 90%;
   display: block;
   color: #435560;
   box-shadow: 10px 0px 0px 0px #ffc286;
@@ -264,12 +276,17 @@ li:hover {
 /* Contact Page */
 .containerContact {
   box-shadow: 10px 0px 0px 0px #ff7171;
-  padding-top: 50px;
+
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  text-align: center;
   width: 90%;
+  display: block;
   margin: 1%;
+  background-image: url("/img/2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: #435560;
 }
 

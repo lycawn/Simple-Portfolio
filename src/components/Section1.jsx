@@ -11,13 +11,13 @@ return (
   <h1 className="headingtext">Angelos Antoniades</h1>
   <p className="under">The website is currently under-construction</p>
   <br></br>
-  <Link to="/Preloader2" href="#"><h2 className="nextPage" >START</h2></Link>
+  <Link to="/Preloader2" onClick="audio.play()" href="#"><h2 className="nextPage" >START</h2></Link>
   <br></br>
 
 
 </div>
 </Zoom>
-<img className="introimg" src="/img/mountain.png"/>
+<img className="introimg" src="/img/1.png"/>
 <Footer />
 
     </div>

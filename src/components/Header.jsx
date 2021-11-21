@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function Header(){
 
+
     return (
 
         <div className="Header">
@@ -15,7 +16,7 @@ function Header(){
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
-    <Link to="/" href="#">Social</Link>
+    <Link to="/Social" href="#">One Page Archive</Link>
   </nav>
 </details>
 </div>

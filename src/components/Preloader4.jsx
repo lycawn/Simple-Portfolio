@@ -19,7 +19,7 @@ function Preloader() {
             setcompleted(true);
           }, 500);
         });
-    }, 700);
+    }, 1000);
   }, []);
 
   return (
