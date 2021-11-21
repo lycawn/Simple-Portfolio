@@ -17,7 +17,6 @@ return (
 
 </div>
 </Zoom>
-<img className="introimg" src="/img/1.png"/>
 <Footer />
 
     </div>
