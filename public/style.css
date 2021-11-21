@@ -283,10 +283,7 @@ li:hover {
   text-align: center;
   width: 90%;
   display: block;
-  margin: 1%;
-  background-image: url("/img/2.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+
   color: #435560;
 }
 
@@ -339,7 +336,7 @@ button:hover {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  margin: 1%;
+
   text-align: center;
 }
 .instagram {
