@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -163,7 +164,7 @@ details[open]::before {
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   display: block;
 }
 
@@ -219,7 +220,6 @@ button {
 }
 
 .introduction {
-  padding-top: 20px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -263,10 +263,12 @@ li:hover {
 
 /* Contact Page */
 .containerContact {
+  box-shadow: 10px 0px 0px 0px #ff7171;
   padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  width: 90%;
   margin: 1%;
   color: #435560;
 }
@@ -315,19 +317,54 @@ button {
 button:hover {
   background-color: #ff7171;
 }
-
-.socialMedia {
-  margin: 5%;
+.github {
+  align-items: center;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 1%;
   text-align: center;
 }
-.socialMedia:hover {
-  color: #ffe2e2;
+.instagram {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 1%;
+  align-items: center;
+}
+.instagram:hover {
+  color: #ff7171;
+}
+.github:hover {
+  color: #ff7171;
+}
+.quotes {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.Quote {
+  color: #b983ff;
+  font-family: Dancing Script;
 }
 
+.Quote2 {
+  color: #ff7171;
+  font-family: dancing Script;
+}
+.Quote2:hover {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Quote:hover {
+  font-family: "Times New Roman", Times, serif;
+}
 /* Social Page */
 .containerSocial {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: #435560;
+}
+a {
+  color: black;
 }
