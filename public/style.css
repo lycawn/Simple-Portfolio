@@ -50,8 +50,8 @@ summary {
   writing-mode: vertical-lr;
   text-align: center;
   padding: 12px 10px;
-  width: 33px;
-  height: 27px;
+  width: 53px;
+  height: 57px;
   background-color: var(--primColor);
   border: 2px solid var(--secoColor);
   border-radius: var(--cornerRad);
@@ -73,6 +73,7 @@ summary::before {
 }
 summary::after {
   content: "III";
+  font-size: 30px;
   letter-spacing: -1px;
 }
 summary:hover {
@@ -88,6 +89,7 @@ details[open] .menu {
   animation-name: menuAnim;
 }
 details[open] summary::before {
+  font-size: 30px;
   content: "X";
 }
 details[open] summary::after {
