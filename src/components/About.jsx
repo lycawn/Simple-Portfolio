@@ -21,14 +21,14 @@ return(
 
         <div className="introduction">
        
-        <h1>ABOUT ME</h1>
-        <img src="/img/profile.png" width="150px" height="150px"  />
+        <h1 className="about">About me</h1>
+        <img src="/img/profile.png" width="200px" height="200px"  className="profilepic" />
         <h3>Hello i'm Angelos a <span className="frontend">front-end Developer</span></h3>
         <br></br>
         
       
         <p>Welcome to my <span className="portfolioSpan">Personal Portfolio</span>
-      I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design</p>
+      I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design. Driven to be productive and creative, i keep sharpening my skills every day, The learning curve on web development has no ending</p>
         <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
         <h3 className="hobbies">Hobbies</h3>
         <p>some of my hobbies are  walking around town , hiking , playing guitar , reading  & enjoying small moments</p>

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +10,7 @@ html {
 body {
   background-color: #fff5da;
   font-family: roboto;
+  font-weight: 500;
   /* header */
 }
 
@@ -43,7 +44,8 @@ hr {
 details {
   z-index: 9999;
   display: inline-block;
-  margin: 40px;
+  margin: 25px;
+  padding-left: 10px;
 }
 summary {
   z-index: 9999;
@@ -101,11 +103,14 @@ details[open] summary::after {
   width: fit-content;
   border-radius: var(--cornerRad);
   background-color: var(--primColor);
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
-  margin-top: 8px;
+  box-shadow: 0 4px 20px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 4px;
   display: flex;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
   flex-direction: column;
-  background-color: #ffe2e2;
+  background-color: #f8eded;
   justify-content: space-between;
   border-radius: 8px;
   overflow: hidden;
@@ -166,7 +171,7 @@ details[open]::before {
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
+  margin-top: 12%;
   display: grid;
 }
 
@@ -203,16 +208,22 @@ button {
   text-align: center;
   position: flex;
   bottom: 0%;
-  width: 100%;
   height: 2.5rem;
 }
 
 /* Next */
+.about {
+  font-family: Pacifico;
+}
 .nextPage {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: #6b7aa1;
+}
+.profilepic {
+  float: left;
+  padding: 10px;
 }
 .portfolioSpan {
   color: #de8971;
@@ -224,11 +235,11 @@ button {
 
 .introduction {
   width: 90%;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 10px 0px 0px 0px #b983ff;
   color: #435560;
-  text-align: center;
 }
 
 .frontend {
@@ -236,7 +247,7 @@ button {
   text-decoration: underline;
 }
 .hobbies {
-  text-decoration: underline;
+  color: #9dad7f;
 }
 
 .aboutImg {
@@ -255,7 +266,7 @@ button {
 .containerWork {
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  text-align: left;
   width: 90%;
   display: grid;
   color: #435560;
@@ -269,6 +280,9 @@ button {
   color: #ff7171;
 }
 .sql {
+  color: #9dad7f;
+}
+li {
   color: #9dad7f;
 }
 li:hover {
