@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Footer from "./Footer";
 import Zoom from 'react-reveal/Zoom';
 function Section1(){
+
+
 
 return (
   <div>

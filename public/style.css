@@ -116,6 +116,7 @@ details[open] summary::after {
   overflow: hidden;
   animation: closeMenu 300ms ease-in-out forwards;
   position: absolute;
+  color: #6b7aa1;
 }
 .menu a {
   z-index: 9999;
@@ -136,7 +137,8 @@ details[open] summary::after {
 .menu a:hover {
   z-index: 9999;
   transition: transform 0.4s; /* Animation */
-  transform: scale(1.3);
+  transform: scale(1.4);
+  background-color: #435560;
   filter: brightness(200%);
 }
 details::before {
@@ -225,6 +227,7 @@ button {
   float: left;
   padding: 10px;
 }
+
 .portfolioSpan {
   color: #de8971;
 }
@@ -394,4 +397,7 @@ button:hover {
 }
 a {
   color: black;
+}
+h3 {
+  font-family: bebas neue;
 }

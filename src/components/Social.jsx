@@ -8,11 +8,17 @@ import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function Social(){
+    const [mmos, setMmo] = useState("MMORPG'S")
     const [inputText, setInputText] = useState("Contact Me")
     function handleClick(){
-        setInputText("Email Sent, Thanks for Contacting me!")
+        setInputText("Email Sent, Thanks for Contacting me!");
     }
-
+    function mmo(){
+        setMmo("Metin 2");
+    }
+    function mmoout(){
+        setMmo("MMORPG'S")
+    }
 return(
     <div>
     <Header />
@@ -28,11 +34,11 @@ return(
 
 <h1 className="about">About me</h1>
 <img src="/img/profile.png" width="150px" height="150px" />
-<h3>Hello i'm Angelos a <span className="frontend">Front-end Web Developer</span></h3>
+<h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">Front-end Web Developer</span></a></h3>
 <br></br>
 
 
-<p>Welcome to my <span className="portfolioSpan">Personal Portfolio</span>
+<p>Welcome to my <span className="portfolioSpan">Personal Portfolio </span>
 I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design. Driven to be productive and creative, i keep sharpening my skills every day.</p>
 <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
 <h3 className="hobbies">Hobbies</h3>
@@ -51,7 +57,7 @@ I love being creative around my designs and try new things, i focus on fast , in
 
 <div className="containerWork">
     <Bounce>
-            <h1>Projects/Work</h1>
+            <h1 className="about">Projects/Work</h1>
         
             <p>I use <span className="languages">HTML</span> , <span className="languages">CSS</span>  , <span className="languages">JavaScript</span> & ofcourse my favourite library <span className="languages">React.js</span></p>
             <p>If i could rate my skills on the languages this would be it :</p>
@@ -62,7 +68,7 @@ I love being creative around my designs and try new things, i focus on fast , in
                 <li>React.js 60%</li>
                 <hr></hr>
                 <h3>Previous Works & Early days</h3>
-                <p>I worked multiple jobs as a teen & an adult , for the past few years i worked as a technical agent at multiple telecommunication companies. In my earlier days as a teenager i used to make my own private server of one of my favourite <span className="mmo">MMORPG'S</span>. Was mainly build on <span className="languages">Python</span> so every little change i wanted to make i had to program it , my experience to coding back in the day was non existance i was just following tutorials and guide everywhere i could find them just to make a simple change to my lovely game. The hardest part back then  was to make it going on <span className="sql">DynDNS</span>  Server world wide without needing to connect via Hamachi an old "local connection" software were you could join with an IP to the server.
+                <p>I worked multiple jobs as a teen & an adult , for the past few years i worked as a technical agent at multiple telecommunication companies. In my earlier days as a teenager i used to make my own private server of one of my favourite <span onMouseOut={mmoout} onMouseOver={mmo} className="mmo">{mmos}</span>. Was mainly build on <span className="languages">Python</span> so every little change i wanted to make i had to program it , my experience to coding back in the day was non existance i was just following tutorials and guide everywhere i could find them just to make a simple change to my lovely game. The hardest part back then  was to make it going on <span className="sql">DynDNS</span>  Server world wide without needing to connect via Hamachi an old "local connection" software were you could join with an IP to the server.
                 My Second hardest part was to conenct the website database with the game's Database where i used <span className="languages">Oracle SQL</span> so people could make Online Exchanges .I used to play a lot of video games as a kid first one was age of empires 1  ofcourse , kingdom under fire etc. Later on as an adult  i started photoshop manipulating images and worked as a freelance video editor / designer. </p>
                 <h3>A few words about my work</h3>
                 <p>I like to design websites of my customers exactly on their needs , listen carefully about their work explore and learn so i can design the perfect <span className="
