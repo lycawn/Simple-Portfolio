@@ -19,20 +19,24 @@ function Header(){
   };
 
     return ( isVisible &&
+    
 
         <div   className="Header">
-            
+
            <details ref={wrapperRef}>
           
   <summary ></summary>
 
   <nav  id="menu" className="menu" class="menu" >
+
     <Link to="/" href="#">Home</Link>
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
     <Link to="/Social" href="#">One Page Archive</Link>
+  
   </nav>
+  
 </details>
 </div>
 

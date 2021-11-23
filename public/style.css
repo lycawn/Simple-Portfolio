@@ -251,6 +251,9 @@ button {
     height: 350px;
   }
 }
+.play {
+  width: 10%;
+}
 /* Work */
 
 .containerWork {

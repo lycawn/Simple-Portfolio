@@ -1,9 +1,6 @@
 import React, {useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer"
-import About from "./About";
-import Work from "./Work";
-import Contact from "./Contact"
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -72,7 +69,7 @@ I love being creative around my designs and try new things, i focus on fast , in
                 My Second hardest part was to conenct the website database with the game's Database where i used <span className="languages">Oracle SQL</span> so people could make Online Exchanges .I used to play a lot of video games as a kid first one was age of empires 1  ofcourse , kingdom under fire etc. Later on as an adult  i started photoshop manipulating images and worked as a freelance video editor / designer. </p>
                 <h3>A few words about my work</h3>
                 <p>I like to design websites of my customers exactly on their needs , listen carefully about their work explore and learn so i can design the perfect <span className="
-                languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the rigth style on the target audiance is KEY.</p>
+                languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
             </div>
             <hr></hr>
             </Bounce>
