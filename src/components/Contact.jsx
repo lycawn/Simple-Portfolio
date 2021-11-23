@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 function Contact(){
     const [inputText, setInputText] = useState("Contact Me")
@@ -22,7 +21,7 @@ return (<div>
             {/* <img className="aboutImg" src="/img/2.png" /> */}
             </form>
             
-        <a className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank">Instagram</a>
+        <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank">Instagram</a>
         
         <a className="github">GitHub</a>
         </div>

@@ -7,11 +7,10 @@ import Preloader3 from "./components/Preloader3";
 import Preloader4 from "./components/Preloader4";
 import Preloader5 from "./components/Preloader5";
 import Work from "./components/Work";
-import Darkmode from 'darkmode-js';
 import Contact from "./components/Contact";
 import Social from "./components/Social";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-
+console.log("Fn")
 ReactDOM.render(
 <div>
       <BrowserRouter>
