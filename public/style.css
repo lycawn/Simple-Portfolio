@@ -18,11 +18,10 @@ body {
   text-align: center;
   color: #316b83;
 }
-.header {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
+.Header {
+  background-color: #f6d7a7;
+  box-shadow: 0px 0px 3px 5px #aaa598;
+  margin-bottom: 3%;
 }
 
 .headingtext {
@@ -174,7 +173,6 @@ details[open]::before {
   margin-left: auto;
   margin-right: auto;
   margin-top: 8%;
-  display: grid;
 }
 
 .introimg {
@@ -200,18 +198,6 @@ button {
   margin-right: auto;
   display: block;
 }
-/* Copy Rights */
-
-.copyrights {
-  text-align: center;
-  font-family: roboto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  position: flex;
-  bottom: 0%;
-  height: 2.5rem;
-}
 
 /* Next */
 .about {
@@ -225,7 +211,8 @@ button {
 }
 .profilepic {
   float: left;
-  padding: 10px;
+
+  margin: 1%;
 }
 
 .portfolioSpan {
@@ -400,4 +387,18 @@ a {
 }
 h3 {
   font-family: bebas neue;
+}
+
+/* footer */
+
+/* Copy Rights */
+
+.copyrights {
+  font-family: roboto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  color: #142f43;
+  bottom: 0;
 }

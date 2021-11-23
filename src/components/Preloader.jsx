@@ -28,7 +28,7 @@ function Preloader() {
         <>
           {!loading ? (
             <div className="spinner">
-              <span>Welcome To My Portofolio..</span>
+              <span>Welcome to my Portfolio..</span>
             </div>
           ) : (
             <div className="completed"> </div>

@@ -23,11 +23,11 @@ return(
        
         <h1 className="about">About me</h1>
         <img src="/img/profile.png" width="200px" height="200px"  className="profilepic" />
-        <h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">front-end Developer</span></a></h3>
+        <h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">front-end Web Developer</span></a></h3>
         <br></br>
         
       
-        <p>Welcome to my <span className="portfolioSpan">Personal Portfolio </span> 
+        <p>Welcome to my <span className="portfolioSpan">Personal Portfolio, </span> 
         I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design. Driven to be productive and creative, i keep sharpening my skills every day, The learning curve on web development has no ending.</p>
         <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
         <h3 className="hobbies">Hobbies</h3>

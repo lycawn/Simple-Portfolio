@@ -19,7 +19,6 @@ return (
 
 </div>
 </Zoom>
-<Footer />
 
     </div>
     

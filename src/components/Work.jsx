@@ -31,6 +31,7 @@ return (<div>
             <hr></hr>
             </Bounce>
             <Link to="/Preloader4" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>
+
     </div>
 
     <Footer />
