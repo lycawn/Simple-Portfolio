@@ -34,7 +34,7 @@ return(
 
 <h1 className="about">About me</h1>
 <img src="/img/profile.png" width="150px" height="150px" />
-<h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">Front-end Web Developer</span></a></h3>
+<h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">Front-end Developer</span></a></h3>
 <br></br>
 
 
