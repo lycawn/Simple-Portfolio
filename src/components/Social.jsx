@@ -93,8 +93,8 @@ I love being creative around my designs and try new things, i focus on fast , in
         
 
         <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank"><i class="fab fa-instagram-square fa-4x"></i></a>
-        
-        <a className="github"><i class="fab fa-github-square fa-4x"></i></a>
+        <a rel="noreferrer" className="instagram" href="https://www.linkedin.com/in/angelos-antoniades/" target="_blank"><i class="fab fa-linkedin fa-4x"></i> </a>
+        <a className="instagram"><i class="fab fa-github-square fa-4x"></i></a>
         </Zoom>
     </div>
     <Footer />

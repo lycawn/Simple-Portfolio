@@ -1,17 +1,32 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function Header(){
+  const wrapperRef = React.useRef(null);
+  const [isVisible, setIsVisible] = useState(true);
 
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside, false);
+    return () => {
+      document.removeEventListener("click", handleClickOutside, false);
+    };
+  }, []);
 
-    return (
+  const handleClickOutside = event => {
+    if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+      setIsVisible(false);
+    }
+    setIsVisible(true);
+  };
 
-        <div className="Header">
+    return ( isVisible &&
+
+        <div   className="Header">
             
-           <details>
+           <details ref={wrapperRef}>
           
-  <summary></summary>
+  <summary ></summary>
 
-  <nav id="menu" class="menu">
+  <nav  id="menu" className="menu" class="menu" >
     <Link to="/" href="#">Home</Link>
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
