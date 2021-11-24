@@ -16,6 +16,7 @@ function Header(){
       setIsVisible(false);
     }
     setIsVisible(true);
+
   };
 
     return ( isVisible &&
