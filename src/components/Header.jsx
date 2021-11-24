@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import Player from "./Player";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function Header(){
   const wrapperRef = React.useRef(null);
@@ -35,7 +36,7 @@ function Header(){
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
     <Link to="/Social" href="#">One Page Archive</Link>
-  
+    <Player />
   </nav>
   
 </details>
