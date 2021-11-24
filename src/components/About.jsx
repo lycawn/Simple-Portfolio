@@ -28,7 +28,7 @@ return(
         
       
         <p>Welcome to my <span className="portfolioSpan">Personal Portfolio, </span> 
-        I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design. Driven to be productive and creative, i keep sharpening my skills every day, The learning curve on web development has no ending.</p>
+        I love being creative around my designs and try new things, i focus on fast , interactive , easy to use design. Driven to be productive and creative, i keep sharpening my skills every day, The learning curve on web development has no ending. <span className="mmo">Quick Maths</span> & <span className="problem">Problem Solving</span> mindset are the best tools for me.</p>
         <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
         <h3 className="hobbies">Hobbies</h3>
         <p>some of my hobbies are  walking around town , hiking , playing guitar , reading  & enjoying small moments.</p>
