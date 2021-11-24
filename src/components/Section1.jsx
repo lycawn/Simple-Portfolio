@@ -11,7 +11,7 @@ return (
   <Zoom>
     <div className="container" id="about">
   <h1 className="headingtext">Angelos Antoniades</h1>
-  <p className="under">The website is currently under-construction</p>
+  <p className="under">Front-end <span className="Quote">Web Developer</span></p>
   <br></br>
   <Link to="/Preloader2" onClick="audio.play()" href="#"><h2 className="nextPage" >START</h2></Link>
   <br></br>
