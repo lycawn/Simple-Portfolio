@@ -240,7 +240,7 @@ details[open]::before {
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8%;
+  margin-top: 11%;
 }
 
 .introimg {
@@ -295,6 +295,7 @@ button {
 /* About */
 .greece {
   color: #316b83;
+  text-decoration: underline;
 }
 
 .introduction {
