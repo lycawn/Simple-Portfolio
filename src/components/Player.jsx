@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Zoom from 'react-reveal/Zoom';
 const useAudio = url => {
-  const [audio] = useState(new Audio("/sounds/A Keepsake from the Past.mp3"));
+  const [audio] = useState(new Audio("/sounds/Axian - Hope.mp3"));
   const [playing, setPlaying] = useState(false);
 
   const toggle = () => setPlaying(!playing);
@@ -16,6 +16,7 @@ const useAudio = url => {
     audio.addEventListener('ended', () => setPlaying(false));
     return () => {
       audio.removeEventListener('ended', () => setPlaying(false));
+      audio.volume = 0.3;
     };
   }, []);
 
@@ -24,7 +25,6 @@ const useAudio = url => {
 
 const Player = ({ url }) => {
   const [playing, toggle] = useAudio(url);
-
   return (
     <Zoom delay={100}>  <div>
       <button className="play" onClick={toggle}>{playing ? "Pause" : "Play"}</button>

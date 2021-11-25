@@ -29,7 +29,7 @@ function Header(){
           
   <summary ></summary>
 
-  <nav  id="menu" className="menu" class="menu" >
+  <nav  id="menu" className="menu" >
 
     <Link to="/" href="#">Home</Link>
     <Link to="/About" href="#">About</Link>

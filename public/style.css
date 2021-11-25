@@ -327,7 +327,10 @@ button {
   }
 }
 .play {
-  width: 100%;
+  background-color: #b983ff;
+  color: #fdcb6e;
+  font-family: bebas neue;
+  font-size: 25px;
 }
 /* Work */
 

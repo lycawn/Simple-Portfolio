@@ -41,6 +41,14 @@ return(
         <p>I am currently based in <span className="greece">Greece, Athens. </span></p>
         <h3 className="hobbies">Hobbies</h3>
         <p>some of my hobbies are  walking around town , hiking , playing guitar , reading  & enjoying small moments.</p>
+        <h2>Achievements</h2>
+        <p><ul>➊<a href="https://data.typeracer.com/misc/badge?user=angelos_antoniades" target="_blank" ><span className="problem">Typing Fast</span></a> ofcourse</ul>
+        </p>
+        <h3>Favourite Quotes</h3>
+        <p> <span className="Quote">“Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.”</span>– Buddha</p>
+        <p><span className="Quote">“The secret of happiness, you see is not found in seeking more, but in developing the capacity to enjoy less.”</span>-Socrates</p>
+        
+
 <hr></hr>
 
 
@@ -87,9 +95,9 @@ return(
         </div>
         
 
-        <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank"><i class="fab fa-instagram-square fa-4x"></i></a>
-        <a rel="noreferrer" className="instagram" href="https://www.linkedin.com/in/angelos-antoniades/" target="_blank"><i class="fab fa-linkedin fa-4x"></i> </a>
-        <a className="instagram"><i class="fab fa-github-square fa-4x"></i></a>
+        <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank"><i className="fab fa-instagram-square fa-4x"></i></a>
+        <a rel="noreferrer" className="instagram" href="https://www.linkedin.com/in/angelos-antoniades/" target="_blank"><i className="fab fa-linkedin fa-4x"></i> </a>
+        <a className="instagram"><i className="fab fa-github-square fa-4x"></i></a>
         </Zoom>
     </div>
     <Footer />

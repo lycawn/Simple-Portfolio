@@ -21,8 +21,8 @@ return (<div>
             {/* <img className="aboutImg" src="/img/2.png" /> */}
             </form>
             
-        <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank"><i class="fab fa-instagram-square"></i>Instagram</a>
-        <a rel="noreferrer" className="instagram" href="https://www.linkedin.com/in/angelos-antoniades/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a rel="noreferrer" className="instagram" href="https://www.instagram.com/aggelos.antoniades/" target="_blank"><i className="fab fa-instagram-square"></i>Instagram</a>
+        <a rel="noreferrer" className="instagram" href="https://www.linkedin.com/in/angelos-antoniades/" target="_blank"><i className="fab fa-linkedin"></i>LinkedIn</a>
         <a className="github">GitHub</a>
         </div>
         
