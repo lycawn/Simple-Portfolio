@@ -28,7 +28,7 @@ return (<div>
                 <p>I like to design websites of my customers exactly on their needs , listen carefully about their work explore and learn so i can design the perfect <span className="
                 languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
             </div>
-            <Link to="/" onClick="audio.play()" href="#"><h2 className="" >React.Portfolio</h2><p>(incoming.)</p></Link>
+            <a href="https://marsio-zabirko.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >React.Portfolio</h2><p>(under construction.)</p></a>
             <hr></hr>
             </Bounce>
             <Link to="/Preloader4" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>

@@ -10,7 +10,9 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Social from "./components/Social";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
 ReactDOM.render(
+  
 <div>
       <BrowserRouter>
       <Routes>

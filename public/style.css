@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #fff5da;
+  background-color: #f9f3df;
   font-family: roboto;
   font-weight: 500;
 
@@ -20,7 +20,7 @@ body {
   color: #316b83;
 }
 .Header {
-  background-color: #e7d4b5;
+  background-color: #f7d59c;
   box-shadow: 0px 0px 3px 5px #aaa598;
   margin-bottom: 3%;
 }
@@ -143,6 +143,7 @@ summary::before {
 summary::after {
   content: "III";
   font-size: 30px;
+  color: #f6f6f6;
   letter-spacing: -1px;
 }
 summary:hover {
@@ -160,6 +161,7 @@ details[open] .menu {
 details[open] summary::before {
   font-size: 30px;
   content: "X";
+  color: #f6f6f6;
 }
 details[open] summary::after {
   content: "";
@@ -303,6 +305,7 @@ button {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
+  padding: 8px;
   box-shadow: 10px 0px 0px 0px #b983ff;
   color: #435560;
 }

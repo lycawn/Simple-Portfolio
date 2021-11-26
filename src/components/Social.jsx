@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer"
 import Bounce from 'react-reveal/Bounce';
+import Player from "./Player";
 import Zoom from 'react-reveal/Zoom';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function Social(){
@@ -21,7 +22,7 @@ return(
     <Header />
     <div className="containerSocial">
     <h3>All in One page Archive</h3>
-
+    
     <br></br>
     <h1 className="headingtext">Angelos Antoniades</h1>
     <br></br>
@@ -31,6 +32,8 @@ return(
 
 <h1 className="about">About me</h1>
 <img src="/img/profile.png" width="150px" height="150px" />
+<br></br>
+<br></br>
 <h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">Front-end Web Developer</span></a></h3>
 <br></br>
 
@@ -76,7 +79,7 @@ return(
                 <p>I like to design websites of my customers exactly on their needs , listen carefully about their work explore and learn so i can design the perfect <span className="
                 languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
             </div>
-            <Link to="/" onClick="audio.play()" href="#"><h2 className="" >React.Portfolio</h2><p>(incoming..)</p></Link>
+            <a href="https://marsio-zabirko.herokuapp.com/" onClick="audio.play()" target="_blank" ><h2 className="" >React.Portfolio</h2><p>(under construction.)</p></a>
             <hr></hr>
             </Bounce>
             </div>
@@ -100,6 +103,7 @@ return(
         <a className="instagram"><i className="fab fa-github-square fa-4x"></i></a>
         </Zoom>
     </div>
+    <Player />
     <Footer />
     </div>
 )
