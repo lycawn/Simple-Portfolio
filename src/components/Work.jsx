@@ -27,7 +27,7 @@ return (<div>
                 <h3>A few words about my work</h3>
                 <p>I like to design websites of my customers exactly on their needs , listen carefully about their work explore and learn so i can design the perfect <span className="
                 languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
-            </div>
+            </div> 
             <a href="https://marsio-zabirko.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >React.Portfolio</h2><p>(under construction.)</p></a>
             <hr></hr>
             </Bounce>

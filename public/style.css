@@ -143,7 +143,7 @@ summary::before {
 summary::after {
   content: "III";
   font-size: 30px;
-  color: #f6f6f6;
+  color: #2c394b;
   letter-spacing: -1px;
 }
 summary:hover {
@@ -161,7 +161,7 @@ details[open] .menu {
 details[open] summary::before {
   font-size: 30px;
   content: "X";
-  color: #f6f6f6;
+  color: #2c394b;
 }
 details[open] summary::after {
   content: "";
@@ -305,7 +305,7 @@ button {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  padding: 8px;
+  padding: 18px;
   box-shadow: 10px 0px 0px 0px #b983ff;
   color: #435560;
 }
