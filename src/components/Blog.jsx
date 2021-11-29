@@ -42,7 +42,6 @@ return (
     <p>This remix and the little fellow attitude is just amazing</p>
     <div className="player-wrapper">
      <ReactPlayer className="react-player"
-      playing
       width="100%"
       height="100%"
         url="https://www.youtube.com/watch?v=T0P6MC8Ris8&ab_channel=TheKiffness"
