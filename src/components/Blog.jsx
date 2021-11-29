@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy'
 
 
 function Blog(){
@@ -14,7 +14,7 @@ return (
     <div className="articles">
     <h1>ARTICLES</h1>
     {/* <div className="article2">
-        <h1 className="articleHeader2">Working as a Party Promoter / Party Team Manager</h1>
+        <h1 className="articleHeader2"></h1>
         <p></p>
     </div> */}
 
@@ -31,19 +31,20 @@ return (
             <p>Ofcourse something every one has to pick up</p>
         </ul>
      
-       <p>In the end it all comes down to how much you willing to learn and do the hard work. I had Minimum to Zero experience in programming but to be honest with one's self learning has no end.</p>
+       <p>In the end it all comes down on how much you willing to learn and do the hard work. I had Minimum to Zero experience in programming but to be honest with one's self learning has no end.</p>
     </div>
 
 
 
     </div>
     <div className="youtube">
-    <h3><span className="languages">One of my favourites!</span></h3>
+    <h3><span className="languages">Ye boi.</span></h3>
     <p>This remix and the little fellow attitude is just amazing</p>
     <div className="player-wrapper">
+
      <ReactPlayer className="react-player"
-      width="100%"
-      height="100%"
+      width="80%"
+      height="80%"
         url="https://www.youtube.com/watch?v=T0P6MC8Ris8&ab_channel=TheKiffness"
       />
         </div>

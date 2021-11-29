@@ -29,7 +29,7 @@ function About(){
    event.preventDefault();}
  }  
  if (score === 20){
-   setStreak("Nice Score")
+   setStreak("Nice Score💥")
  } else if (score === 50){
    setStreak("Yo Stop.")
  } else {
@@ -70,7 +70,7 @@ return(
         <h3>Play Dice?</h3>
         <img onClick={diceRoll} className="dice" src="/img/dice.png" width="50px" height="50px" />
           <p>{luckyText}</p>
-          <p>Score : {score} {streak}</p>
+          <p><span className="score">Score </span> : {score} {streak}</p>
         <hr></hr>
         <Link to="/Preloader3" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>
     

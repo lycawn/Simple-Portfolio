@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #f9f3df;
+  background-color: #F3F1F5;
   font-family: roboto;
   font-weight: 500;
 
@@ -24,7 +24,7 @@ body {
   color: #316b83;
 }
 .Header {
-  background-color: #f7d59c;
+  background-color: #D4E2D4;
   box-shadow: 0px 0px 3px 5px #aaa598;
   margin-bottom: 3%;
 }
@@ -577,6 +577,14 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+/* DICE */
+.score{
+  color: #b983ff;
 }

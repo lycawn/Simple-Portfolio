@@ -28,7 +28,7 @@ function Header(){
 
            <details ref={wrapperRef}>
           
-  <summary ></summary>
+  <summary><img src="/img/santa.png" width="60px" height="40px"/></summary>
 
   <nav  id="menu" className="menu" >
 
