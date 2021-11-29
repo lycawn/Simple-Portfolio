@@ -40,9 +40,15 @@ return (
     <div className="youtube">
     <h3><span className="languages">One of my favourites!</span></h3>
     <p>This remix and the little fellow attitude is just amazing</p>
-     <ReactPlayer className="containerBlog"
+    <div className="player-wrapper">
+     <ReactPlayer className="react-player"
+      playing
+      width="100%"
+      height="100%"
+      controls={false}
         url="https://www.youtube.com/watch?v=T0P6MC8Ris8&ab_channel=TheKiffness"
       />
+        </div>
   
   </div>
     <Footer /></div>
