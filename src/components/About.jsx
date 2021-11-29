@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Bounce from 'react-reveal/Bounce';
@@ -11,6 +11,34 @@ function About(){
   //   audio.play()
   // }
 
+  const [luckyText, setLuckyText] = useState("")
+  const [score, setScore] = useState(0)
+  const [streak, setStreak] = useState("");
+  const scorePoints = [];
+ function diceRoll(event){
+ 
+   let dice = Math.floor(Math.random() * 6 ) +1;
+ if(dice !== 6){
+   console.log(`You rolled ${dice} `);
+   setLuckyText(`You rolled ${dice}🎲`);
+ } else if (dice === 6) {
+   console.log(` Wow you rolled ${dice}`);
+   setLuckyText(`Congratulations you just rolled ${dice} 🎲 !!!`)
+   for(let points =1; points <= 1; points++){
+   setScore(score + 1 );
+   event.preventDefault();}
+ }  
+ if (score === 20){
+   setStreak("Nice Score")
+ } else if (score === 50){
+   setStreak("Yo Stop.")
+ } else {
+   setStreak("")
+ 
+ }
+ 
+ }
+ 
 
 return(
     <div>
@@ -20,7 +48,7 @@ return(
         <Bounce left>
 
         <div className="introduction">
-       
+     
         <h1 className="about">About me</h1>
         <img src="/img/profile.png" width="200px" height="200px"  className="profilepic" />
         <h3>Hello i'm Angelos a <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><span className="frontend">front-end Web Developer</span></a></h3>
@@ -39,7 +67,10 @@ return(
         <h3>Favourite Quotes</h3>
         <p> <span className="Quote">“Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.”</span>– Buddha</p>
         <p><span className="Quote">“The secret of happiness, you see is not found in seeking more, but in developing the capacity to enjoy less.”</span>-Socrates</p>
-        
+        <h3>Play Dice?</h3>
+        <img onClick={diceRoll} className="dice" src="/img/dice.png" width="50px" height="50px" />
+          <p>{luckyText}</p>
+          <p>Score : {score} {streak}</p>
         <hr></hr>
         <Link to="/Preloader3" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>
     

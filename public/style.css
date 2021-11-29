@@ -15,6 +15,10 @@ body {
   /* header */
 }
 
+.dice:hover{
+  transform: scale(1.5);
+  margin-bottom: 2%;
+}
 .under {
   text-align: center;
   color: #316b83;
@@ -342,7 +346,6 @@ button {
   margin-left: auto;
   text-align: left;
   width: 90%;
-
   color: #435560;
   box-shadow: 10px 0px 0px 0px #ffc286;
 }
