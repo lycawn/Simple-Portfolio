@@ -45,7 +45,6 @@ return (
       playing
       width="100%"
       height="100%"
-      controls={false}
         url="https://www.youtube.com/watch?v=T0P6MC8Ris8&ab_channel=TheKiffness"
       />
         </div>
