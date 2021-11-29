@@ -521,3 +521,48 @@ h3 {
   text-align: center;
   margin-bottom: 20px;
 }
+
+
+/* BLOG PAGE CSS */
+
+.containerBlog{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.articles{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.article1{
+  margin-left: 3%;
+  text-align: left;
+  width: 80%;
+}
+.article2{
+  margin-left: 3%;
+  text-align: left;
+  width: 80%;
+}
+.articleHeader{
+  font-family: bebas neue;
+  font-size: 35px;
+  color: #b983ff;
+  text-decoration: underline;
+
+}
+.articleHeader2{
+  font-family: bebas neue;
+  font-size: 35px;
+  color: #ff7171;
+  text-decoration: underline;
+
+}

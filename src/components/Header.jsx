@@ -36,7 +36,9 @@ function Header(){
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
+    <Link to="/Blog" href="#">Personal Blog</Link>
     <Link to="/Social" href="#">One Page Archive</Link>
+    
 
   </nav>
   

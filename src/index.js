@@ -9,6 +9,7 @@ import Preloader5 from "./components/Preloader5";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Social from "./components/Social";
+import Blog from "./components/Blog";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 ReactDOM.render(
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path="Work/*" element={<Work />} />
         <Route path="Contact/*" element={<Contact />} />
         <Route path="Social/*" element={<Social />} />
+        <Route path="Blog/*" element={<Blog />} />
       </Routes>
     </BrowserRouter>
     
