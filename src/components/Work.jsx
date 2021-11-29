@@ -29,6 +29,7 @@ return (<div>
                 languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
             </div> 
             <a href="https://marsio-zabirko.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >React.Portfolio</h2><p>(under construction.)</p></a>
+            <a href="https://advancedjs.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >ejs.blog</h2><p>(under construction.)</p></a>
             <hr></hr>
             </Bounce>
             <Link to="/Preloader4" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>
