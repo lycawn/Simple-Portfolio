@@ -2,15 +2,17 @@ import React, {useState} from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 import ReactPlayer from 'react-player/lazy'
+import Zoom from "react-reveal/Zoom";
 
 
 function Blog(){
 
 
 return (
+
     <div className="containerBlog">
     <Header  />
-
+    <Zoom>
     <div className="articles">
     <h1>ARTICLES</h1>
     {/* <div className="article2">
@@ -50,7 +52,7 @@ return (
         </div>
   
   </div>
-    <Footer /></div>
+    <Footer /></Zoom></div>
 )
 
 
