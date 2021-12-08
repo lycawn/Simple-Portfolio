@@ -5,7 +5,3 @@ import { get } from "jquery";
 
 
 
-
-
-
-console.log(diceRoll())

@@ -80,7 +80,7 @@ return(
                 languages" >UI/UX</span> for <span className="greece">maximum performance & quality</span>. Using the right style on the target audiance is KEY.</p>
             </div>
             <a href="https://movie-crate.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >React.movieWebsite</h2><p>(under construction.User Name : admin@moviecrate.com pass : admin123admin)</p></a>
-            <a href="https://advancedjs.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >ejs.blog</h2><p>(under construction.)</p></a>
+            <a href="https://cryptowizard.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >React.CryptoStats</h2></a>
             <a href="https://angelosantoniades.herokuapp.com/" target="_blank" onClick="audio.play()" ><h2 className="" >ejs.portfolio</h2></a>
             <hr></hr>
             </Bounce>
