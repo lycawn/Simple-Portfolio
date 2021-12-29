@@ -67,10 +67,10 @@ return(
         <h3>Favourite Quotes</h3>
         <p> <span className="Quote">“Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.”</span>– Buddha</p>
         <p><span className="Quote">“The secret of happiness, you see is not found in seeking more, but in developing the capacity to enjoy less.”</span>-Socrates</p>
-        <h3>Play Dice?</h3>
+        {/* <h3>Play Dice?</h3> 
         <img onClick={diceRoll} className="dice" src="/img/dice.png" width="50px" height="50px" />
           <p>{luckyText}</p>
-          <p><span className="score">Score </span> : {score} {streak}</p>
+          <p><span className="score">Score </span> : {score} {streak}</p> */}
         <hr></hr>
         <Link to="/Preloader3" onClick="audio.play()" href="#"><h2 className="nextPage" >Next Page</h2></Link>
     

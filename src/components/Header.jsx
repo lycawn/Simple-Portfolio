@@ -28,7 +28,7 @@ function Header(){
 
            <details ref={wrapperRef}>
           
-  <summary><img src="/img/santa.png" width="60px" height="40px"/></summary>
+  <summary></summary>
 
   <nav  id="menu" className="menu" >
 
@@ -36,7 +36,6 @@ function Header(){
     <Link to="/About" href="#">About</Link>
     <Link to="/Work" href="#">Work</Link>
     <Link to="/Contact" href="#">Contact</Link>
-    <Link to="/Blog" href="#">Personal Blog</Link>
     <Link to="/Social" href="#">One Page Archive</Link>
     
 
